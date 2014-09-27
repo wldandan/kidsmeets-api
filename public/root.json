@@ -1,0 +1,16 @@
+{
+  "_links": {
+    "events": {
+      "href": "/events/",
+      "title": "Get events which will be coming"
+    },
+    "diagnostic": {
+      "href": "/diagnostic",
+      "title": "Diagnostic end points"
+    },
+    "api": {
+      "href": "/api",
+      "title": "API end points for testing"
+    }
+  }
+}
