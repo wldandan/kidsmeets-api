@@ -1,0 +1,17 @@
+development:
+  sessions:
+    default:
+      database: kids-meets-development
+      hosts:
+        - localhost:27017
+  options:
+    raise_not_found_error: false
+
+test:
+  sessions:
+    default:
+      database: kids-meets-test
+      hosts:
+        - localhost:27017
+  options:
+    raise_not_found_error: false

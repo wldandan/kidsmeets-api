@@ -1,4 +1,7 @@
 require File.dirname(__FILE__) + '/config/boot'
+require File.dirname(__FILE__) + '/config/initializers/mongoid_fields'
+require File.dirname(__FILE__) + '/config/initializers/mongoid_session'
+
 require 'kids_meets'
 require 'rack/static'
 require 'webrick'
