@@ -9,5 +9,5 @@ WEBrick::Config::HTTP[:RequestTimeout] = 2300
 
 run Rack::URLMap.new(
     '/' => Rack::File.new('public/root.json', { 'Cache-Control' => 'no-cache' }),
-    '/events' => KidsMeets::API::Event,
+    '/api' => KidsMeets::API,
 )

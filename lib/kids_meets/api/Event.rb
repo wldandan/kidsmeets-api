@@ -1,7 +1,7 @@
 require 'grape'
 
 module KidsMeets
-  module API
+  module Api
 
     class Event < Grape::API
 
