@@ -31,6 +31,6 @@ module KidsMeets
     content_type :xml, 'text/xml'
     default_format :json
 
-    mount Api::Event => '/event'
+    mount Api::Event
   end
 end
